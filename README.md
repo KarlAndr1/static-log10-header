@@ -5,6 +5,6 @@ A header for computing the integer log10 with the C preprocessor
 ```
 #define X 123
 #include "static_log10.h"
-_Static_assert(X == 2, "")
+_Static_assert(LOG == 2, "")
 #undef X
 ```
